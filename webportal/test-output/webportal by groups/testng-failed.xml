@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [webportal by groups]">
+  <test thread-count="5" name="GRP-subtitle(failed)">
+    <groups>
+      <run>
+        <include name="subtitle"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNGBasics.GoogleTest">
+        <methods>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- TestNGBasics.GoogleTest -->
+    </classes>
+  </test> <!-- GRP-subtitle(failed) -->
+</suite> <!-- Failed suite [webportal by groups] -->
